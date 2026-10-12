@@ -1,0 +1,16 @@
+  214  ssh ec2-user@linux.itcareerhub.de\n
+  215  ssh ec2-user@linux.itcareerhub.de\n
+  216  cd ~/Desktop
+  217  git clone https://github.com/Ilhan08761/git-homework.git\n
+  218  cd git-homework
+  219  git checkout -b feature
+  220  echo "#My Git Homework" > README.md
+  221  echo "#Temporary files" >> .gitignore
+  222  git status
+  223  git add README.md .gitignore
+  224  git commit -m "Initial commit for feature branch"
+  225  git push origin feature
+  226  git commit --amend -m "Initial commit for feature branch with ammend"\n
+  227  git push origin feature -f\n
+  228  git checkout main
+  229  git merge feature
