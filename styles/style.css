@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 5%;
+}
+
+label {
+  display: inline-block;
+  min-width: 145px;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+input {
+  padding: 8px 12px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: rgb(223, 223, 223);
+}
+
+button {
+  background-color: teal;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  min-width: 145px;
+  border: 1px solid teal;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  margin: 15px 0px;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid teal;
+  color: teal;
+}
+
+p {
+  margin-top: 25px;
+  font-family: sans-serif;
+  padding: 2%;
+  font-style: italic;
+}
+
+.welcome-screen {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.welcome-screen p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#logoutBtn {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+#logoutBtn:hover {
+  background-color: transparent;
+  color: #dc3545;
+  border-color: #dc3545;
+}
